@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  color: #3470ff;
+  gap: 20px;
+  font-size: 25px;
+}

@@ -5,8 +5,8 @@ import css from "./SharedLayout.styled.module.css";
 
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { apiGetCars } from "../../../reduxState/operations";
-import { selectAllCars } from "../../../reduxState/selector";
+import { apiGetCars } from "../../reduxState/operations";
+import { selectAllCars } from "../../reduxState/selector";
 
 export const SharedLayout = () => {
   const dispatch = useDispatch();

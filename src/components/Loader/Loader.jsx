@@ -1,13 +1,17 @@
-import { BallTriangle } from "react-loader-spinner";
+import { Triangle } from "react-loader-spinner";
+
 export const Loader = () => {
   return (
-    <Container>
-      <BallTriangle
-        height="100"
-        width="100"
-        color="#964262"
-        ariaLabel="loading"
+    <div>
+      <Triangle
+        visible={true}
+        height="80"
+        width="80"
+        color="#3470ff"
+        ariaLabel="triangle-loading"
+        wrapperStyle={{}}
+        wrapperClass=""
       />
-    </Container>
+    </div>
   );
 };

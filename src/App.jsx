@@ -1,4 +1,4 @@
-import { SharedLayout } from "./components/SharedLayout/SharedLayout";
+import { SharedLayout } from "./components";
 
 const App = () => {
   return (

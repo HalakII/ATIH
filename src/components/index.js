@@ -1,3 +1,7 @@
-export { SharedLayout } from "./SharedLayout/SharedLayout";
-// export { CarsList } from "./CarsList/CarsList";
+export { CarsListItem } from "./CarListItem/CarsListItem";
+export { CarsList } from "./CarsList/CarsList";
+export { Grid } from "./Grid/Grid.styled";
 export { Loader } from "./Loader/Loader";
+export { Modal } from "./Modal/Modal";
+export { SharedLayout } from "./SharedLayout/SharedLayout";
+export { Button } from "./Button/Button";

@@ -1,0 +1,17 @@
+.button {
+  /* width: 274px; */
+  height: 44px;
+  padding: 8px;
+  border-radius: 12px;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  transition: all 550ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button:enabled:hover {
+  background-color: var(--blue-hover-color);
+  color: var(--white-color);
+}
+.button:disabled {
+  cursor: not-allowed;
+  color: var(--gray-color);
+}

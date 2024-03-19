@@ -1,0 +1,157 @@
+.card {
+  position: relative;
+  width: 274px;
+  height: 426px;
+}
+.car_img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 268px;
+}
+.button_heart {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* ====== */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.button_close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 501px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button_close .icon {
+  stroke: #121417;
+  min-width: 100%;
+  min-height: 100%;
+}
+.modal_container {
+  position: relative;
+  border-radius: 24px;
+  width: 541px;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.modal_card {
+  margin-bottom: 24px;
+}
+.car_img {
+  border-radius: 14px;
+  width: 100%;
+  height: 248px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+.box {
+  margin-bottom: 24px;
+}
+.car_title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #121417;
+  margin-bottom: 8px;
+}
+.span_modal {
+  color: #3470ff;
+}
+
+.description_car {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #121417;
+  margin-top: 14px;
+}
+
+.info_car_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info_car_item {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(18, 20, 23, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+.info_car_item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: rgba(18, 20, 23, 0.1);
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.info_title {
+  margin-bottom: 8px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #121417;
+}
+.condition_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.condition_item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: -0.24px;
+  color: #363535;
+  border-radius: 35px;
+  padding: 7px 14px;
+  background: #f9f9f9;
+}
+.contact_link {
+  border-radius: 12px;
+  padding: 12px 50px;
+  width: 168px;
+  height: 44px;
+  background: #3470ff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.43;
+}
+.contact_link:hover,
+.contact_link:focus {
+  background-color: #0b44cd;
+}
